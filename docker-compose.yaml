@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:  
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vue-app
+    ports:
+      - 3000:3000
+    env_file:
+      - ".env"

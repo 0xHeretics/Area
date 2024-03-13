@@ -1,0 +1,63 @@
+{
+    "client": {
+      "host": "10.101.53.35"
+    },
+    "server": {
+      "current_time": 1531680780,
+      "services": [
+        {
+          "name": "calendrier",
+          "actions": [
+            {
+              "name": "Selectionner la date et l'heure",
+              "description": "Selectionner la date et l'heure pour un événement"
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Recois un message sur discord",
+              "description": "L'utilisateur reçoit un message"
+            }
+          ]
+        },
+        {
+          "name": "youtube",
+          "actions": [
+            {
+              "name": "Nouvel abonné",
+              "description": "Reçoit une notification lorsqu'un utilisateur s'abonne à la chaîne"
+            },
+            {
+              "name": "Nouvel vidéo",
+              "description": "Reçoit une notification lorsqu'une nouvelle vidéo est publiée"
+            },
+            {
+              "name": "Nouveau short",
+              "description": "Reçoit une notification lorsqu'un nouveau short est publié"
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Recevoir une notification",
+              "description": "L'utilistauer reçoit une notification"
+            }
+          ]
+        },
+        {
+          "name": "github",
+          "actions": [
+            {
+              "name": "Nouveau commit",
+              "description": "Reçoit une notification lorsqu'un nouveau commit est effectué dans le dépôt GitHub"
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Envoyer une notification sur Discord",
+              "description": "L'utilisateur reçoit une notification sur Discord"
+            }
+          ]
+        }
+      ]
+    }
+  }
